@@ -1,0 +1,13 @@
+PACKET:
+
+COMMAND - 1 bytes
+LENGTH - 2 byte (length of data)
+DATA - Remaining
+
+HEADER_SIZE = 3
+
+
+
+Data = After header and before byte end
+
+end = length + HEADER_SIZE
